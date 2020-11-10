@@ -532,7 +532,7 @@ p = ThreadPool(30)
 	print '\033[1;34;40m[+] CP File Has Been Saved : save/cp.txt'
 	print """
 print "   \033[1;31;48m●══════════════════════JAM══════════════════════●"
-	raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
+	raw_input("\n\033[1;93m[\033[1;91mBack\033[1;93m]")
 	super()
 if __name__ == '__main__':
 	methodlogin()
