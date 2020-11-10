@@ -98,8 +98,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "yang bener dong"
+	    os.system('xdg-open https://wa.me/6285691015635')
     else:
         print "salah sayang!"
+	os.system('xdg-open https://wa.me/6285691015635')
 
 def methodlogin():
 	os.system('clear')
@@ -525,7 +527,7 @@ t "\033[1;95m•◈•▬ ▬ ▬•◈\033[1;91mJAM-SHAHRUKH\033[1;95m◈•▬
 	print"\033[1;91mTotal OK/\x1b[1;95mCP \033[1;93m: \033[1;91m"+str(len(oks))+"\033[1;93m/\033[1;96m"+str(len(cekpoint))
 	print """ "\033[1;36;40m●════════════════════════☠════════════════════════●\n"
 	raw_input("\n\033[1;96m[\033[1;97mExit\033[1;96m]")
-	super()
+	menu()
 
 def brute():
     os.system('clear')
