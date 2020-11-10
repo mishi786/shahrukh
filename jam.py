@@ -519,16 +519,15 @@ def pilih_super():
 		except:
 			pass
 		
-p = ThreadPool(30)
-	p.map(main, id) 
-	
-	print '\033[1;31;40m[✓] Process Has Been Completed\033[1;96m....'
-	print "\033[1;32;40m[+] Total OK/\x1b[1;93mCP \033[1;91m: \033[1;91m"+str(len(oks))+"\033[1;31;40m/\033[1;36;40m"+str(len(cekpoint))
-	print '\033[1;34;40m[+] CP File Has Been Saved : save/cp.txt'
+t "\033[1;95m•◈•▬ ▬ ▬•◈\033[1;91mJAM-SHAHRUKH\033[1;95m◈•▬ ▬ ▬•◈•"
+	print "  \033[1;91m«---•◈•---Developed By JAM-SHAHRUKH--•◈•---»" #Dev:Jam
+	print '\033[1;93m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (python2 Mishal.py)↩\033[1;97m....'
+	print"\033[1;91mTotal OK/\x1b[1;95mCP \033[1;93m: \033[1;91m"+str(len(oks))+"\033[1;93m/\033[1;96m"+str(len(cekpoint))
 	print """
-print "   \033[1;31;48m●══════════════════════JAM══════════════════════●"
-	raw_input("\n\033[1;93m[\033[1;91mBack\033[1;93m]")
-	super()
+	
+	raw_input("\n\033[1;95m[\033[1;91mBack\033[1;95m]")
+	menu()
+
 if __name__ == '__main__':
-	methodlogin()
+	login()
 
